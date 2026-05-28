@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    // TODO: fix violations and remove
+    "isolatedDeclarations": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/components",
+    "scripts",
+    "cli/src/compile/__test__/fixtures"
+  ]
+}

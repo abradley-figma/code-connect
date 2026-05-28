@@ -1,0 +1,98 @@
+{
+  "name": "@figma/code-connect",
+  "version": "1.5.0",
+  "description": "A tool for connecting your design system components in code with your design system in Figma",
+  "keywords": [],
+  "author": "Figma",
+  "license": "MIT",
+  "main": "./cli/dist/react/index_react.js",
+  "exports": {
+    ".": {
+      "types": "./cli/dist/react/index_react.d.ts",
+      "default": "./cli/dist/react/index_react.js"
+    },
+    "./cli-commands-template": {
+      "types": "./cli/dist/commands/connect_template.d.ts",
+      "default": "./cli/dist/commands/connect_template.js"
+    },
+    "./html": {
+      "types": "./cli/dist/html/index_html.d.ts",
+      "default": "./cli/dist/html/index_html.js"
+    },
+    "./react": {
+      "types": "./cli/dist/react/index_react.d.ts",
+      "default": "./cli/dist/react/index_react.js"
+    },
+    "./figma-types": {
+      "types": "./cli/figma-types.d.ts"
+    },
+    "./register": {
+      "types": "./cli/dist/compile/register.d.ts",
+      "default": "./cli/dist/compile/register.js"
+    },
+    "./esbuild": {
+      "types": "./cli/dist/esbuild/index.d.ts",
+      "default": "./cli/dist/esbuild/index.js"
+    },
+    "./nextjs": {
+      "types": "./cli/dist/nextjs/index.d.ts",
+      "default": "./cli/dist/nextjs/index.js"
+    },
+    "./prepare": {
+      "types": "./cli/dist/prepare/index.d.ts",
+      "default": "./cli/dist/prepare/index.js"
+    },
+    "./vite": {
+      "types": "./cli/dist/vite/index.d.ts",
+      "default": "./cli/dist/vite/index.js"
+    },
+    "./webpack": {
+      "types": "./cli/dist/webpack/index.d.ts",
+      "default": "./cli/dist/webpack/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abradley-figma/code-connect.git"
+  },
+  "homepage": "https://github.com/abradley-figma/code-connect#readme",
+  "bin": {
+    "figma": "cli/bin/figma"
+  },
+  "files": [
+    "cli/dist/**/*",
+    "cli/bin/**/*",
+    "cli/figma-types.d.ts",
+    "cli/package.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "cd cli && npm run build"
+  },
+  "dependencies": {
+    "boxen": "5.1.1",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "compare-versions": "^6.1.0",
+    "cross-spawn": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "fast-fuzzy": "^1.12.0",
+    "find-up": "^5.0.0",
+    "glob": "^11.0.4",
+    "jsdom": "^24.1.1",
+    "lodash": "4.18.1",
+    "minimatch": "^9.0.3",
+    "ora": "^5.4.1",
+    "parse5": "^7.1.2",
+    "prettier": "^2.8.8",
+    "prompts": "^2.4.2",
+    "strip-ansi": "^6.0.0",
+    "ts-morph": "^27.0.0",
+    "typescript": "6.0.3",
+    "undici": "^7.19.1",
+    "zod": "3.25.58",
+    "zod-validation-error": "^3.2.0"
+  }
+}

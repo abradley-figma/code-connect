@@ -1,0 +1,14 @@
+.env
+.DS_Store
+node_modules
+src/components
+src/bindings.ts
+test-files
+coverage
+bundle/
+.build/
+.swiftpm/
+bundle-cli
+webpack-dist
+bundle-npm
+bundle-local

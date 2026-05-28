@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`real fixtures snapshot parses Avatar.figma.template.ts 1`] = `
+{
+  "descriptors": [
+    {
+      "componentName": "Avatar",
+      "filePath": "<fixtures>/Avatar.tsx",
+      "props": [
+        {
+          "label": "Size",
+          "name": "size",
+          "options": [
+            {
+              "label": "Sm",
+              "value": "24",
+            },
+            {
+              "label": "Md",
+              "value": "32",
+            },
+            {
+              "label": "Lg",
+              "value": "48",
+            },
+          ],
+          "type": "enum",
+        },
+        {
+          "label": "Src",
+          "name": "src",
+          "type": "string",
+        },
+      ],
+    },
+  ],
+  "isLegacyConnectFile": undefined,
+  "metadata": {
+    "component": "Avatar",
+    "source": undefined,
+    "url": "https://figma.com/design/abc?node-id=3:3",
+  },
+}
+`;
+
+exports[`real fixtures snapshot parses Button.figma.ts 1`] = `
+{
+  "descriptors": [
+    {
+      "componentName": "Button",
+      "filePath": "<fixtures>/Button.tsx",
+      "props": [
+        {
+          "label": "Variant",
+          "name": "variant",
+          "options": [
+            {
+              "label": "Primary",
+              "value": "primary",
+            },
+            {
+              "label": "Secondary",
+              "value": "secondary",
+            },
+            {
+              "label": "Danger",
+              "value": "danger",
+            },
+          ],
+          "type": "enum",
+        },
+        {
+          "label": "Size",
+          "name": "size",
+          "options": [
+            {
+              "label": "Sm",
+              "value": "sm",
+            },
+            {
+              "label": "Md",
+              "value": "md",
+            },
+            {
+              "label": "Lg",
+              "value": "lg",
+            },
+          ],
+          "type": "enum",
+        },
+        {
+          "label": "Disabled",
+          "name": "disabled",
+          "type": "boolean",
+        },
+        {
+          "label": "Label",
+          "name": "label",
+          "type": "string",
+        },
+        {
+          "label": "Icon",
+          "name": "icon",
+          "type": "reference",
+        },
+      ],
+    },
+  ],
+  "isLegacyConnectFile": undefined,
+  "metadata": {
+    "component": "Button",
+    "source": "./Button.tsx",
+    "url": "https://figma.com/design/abc?node-id=1:1",
+  },
+}
+`;
+
+exports[`real fixtures snapshot parses Card.figma.ts 1`] = `
+{
+  "descriptors": [
+    {
+      "componentName": "Card",
+      "filePath": "<fixtures>/Card.tsx",
+      "props": [
+        {
+          "label": "Title",
+          "name": "title",
+          "type": "string",
+        },
+        {
+          "label": "Body",
+          "name": "Body",
+          "type": "slot",
+        },
+      ],
+    },
+  ],
+  "isLegacyConnectFile": undefined,
+  "metadata": {
+    "component": undefined,
+    "source": undefined,
+    "url": "https://figma.com/design/abc?node-id=2:2",
+  },
+}
+`;
+
+exports[`real fixtures snapshot parses LegacyButton.figma.tsx 1`] = `
+{
+  "descriptors": [],
+  "isLegacyConnectFile": true,
+  "metadata": undefined,
+}
+`;
+
+exports[`real fixtures snapshot parses Slider.figma.template.js 1`] = `
+{
+  "descriptors": [
+    {
+      "componentName": "Slider",
+      "filePath": "<fixtures>/Slider.jsx",
+      "props": [
+        {
+          "label": "Value",
+          "name": "value",
+          "type": "string",
+        },
+        {
+          "label": "Disabled",
+          "name": "disabled",
+          "type": "boolean",
+        },
+        {
+          "label": "Orientation",
+          "name": "orientation",
+          "options": [
+            {
+              "label": "Horizontal",
+              "value": "horizontal",
+            },
+            {
+              "label": "Vertical",
+              "value": "vertical",
+            },
+          ],
+          "type": "enum",
+        },
+      ],
+    },
+  ],
+  "isLegacyConnectFile": undefined,
+  "metadata": {
+    "component": "Slider",
+    "source": "./Slider.jsx",
+    "url": "https://figma.com/design/abc?node-id=3:3",
+  },
+}
+`;
+
+exports[`real fixtures snapshot parses Switch.figma.js 1`] = `
+{
+  "descriptors": [
+    {
+      "componentName": "Switch",
+      "filePath": "<fixtures>/Switch.jsx",
+      "props": [
+        {
+          "label": "Checked",
+          "name": "checked",
+          "type": "boolean",
+        },
+        {
+          "label": "Disabled",
+          "name": "disabled",
+          "type": "boolean",
+        },
+        {
+          "label": "Label",
+          "name": "label",
+          "type": "string",
+        },
+        {
+          "label": "Size",
+          "name": "size",
+          "options": [
+            {
+              "label": "Sm",
+              "value": "sm",
+            },
+            {
+              "label": "Md",
+              "value": "md",
+            },
+            {
+              "label": "Lg",
+              "value": "lg",
+            },
+          ],
+          "type": "enum",
+        },
+      ],
+    },
+  ],
+  "isLegacyConnectFile": undefined,
+  "metadata": {
+    "component": "Switch",
+    "source": "./Switch.jsx",
+    "url": "https://figma.com/design/abc?node-id=2:2",
+  },
+}
+`;
+
+exports[`real fixtures snapshot parses Tooltip.figma.ts 1`] = `
+{
+  "descriptors": [
+    {
+      "componentName": "Tooltip",
+      "filePath": "<fixtures>/Tooltip.tsx",
+      "props": [
+        {
+          "label": "Title",
+          "name": "title",
+          "type": "string",
+        },
+        {
+          "label": "Placement",
+          "name": "placement",
+          "options": [
+            {
+              "label": "Top",
+              "value": "top",
+            },
+            {
+              "label": "Right",
+              "value": "right",
+            },
+            {
+              "label": "Bottom",
+              "value": "bottom",
+            },
+            {
+              "label": "Left",
+              "value": "left",
+            },
+          ],
+          "type": "enum",
+        },
+        {
+          "label": "Disabled",
+          "name": "disabled",
+          "type": "boolean",
+        },
+      ],
+    },
+  ],
+  "isLegacyConnectFile": undefined,
+  "metadata": {
+    "component": "Tooltip",
+    "source": "./Tooltip.tsx",
+    "url": "https://figma.com/design/abc?node-id=4:4",
+  },
+}
+`;

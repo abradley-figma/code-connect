@@ -1,0 +1,3 @@
+# Intentionally empty. The "files" field in the root package.json acts as the
+# allowlist for what gets published. Without this file, npm falls back to using
+# cli/.gitignore (which excludes dist/), breaking installs from a git URL.
